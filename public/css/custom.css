@@ -1,0 +1,47 @@
+.ovflowhidden {
+    overflow: hidden;
+}
+.pos-relative {
+    position: relative;
+}
+.zindex-100 {
+    z-index: 100;
+}
+
+.bg-black {
+    background-color: #000;
+}
+.section__wrap_inner {
+    max-width:50em;
+}
+.inner_saas_head__wrap {
+    font-size: 4em;
+}
+.page-banner-img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.services_head.inner_head {
+    background-color: #000;
+}
+.services_head .page-banner-img {
+    height: 135%;
+    top: -115px;
+    right:-25px;
+}
+.section-3 .page-banner-img {
+    height: 260%;
+    right: 50px;
+    top: -300px;
+}
+.section-6 .page-banner-img {
+    height: 330%;
+    /*right: 50px;*/
+    top: -340px;
+}
+.section__bottom {
+    max-width: 40%;
+}
+    

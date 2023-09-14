@@ -1,0 +1,172 @@
+.popup__presentation {
+  max-width: 93.75em;
+  width: 100%;
+}
+.popup__presentation .popup__close {
+  z-index: 2;
+  top: 1px;
+  right: 1px;
+}
+.popup__presentation .popup_presentation__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #767983;
+}
+.popup__presentation
+  .popup_presentation__wrap
+  .popup__presentation_img_wrap
+  img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.popup__presentation .popup_presentation__wrap .popup__presentation_img_wrap {
+  min-height: 100%;
+}
+.popup__small_head {
+  text-transform: uppercase;
+  font-family: Monument Extended, Arial;
+  font-weight: 700;
+  font-size: 1.325em;
+  letter-spacing: -0.02em;
+}
+.popup__small_head .color-small {
+  color: #d95b29;
+}
+.popup_presentation__content_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4.0625em 3.4375em 3.875em;
+}
+.popup_presentation__content_form .form__submit {
+  margin-top: 2.5em;
+}
+.success .popup_presentation__content_form {
+  opacity: 0;
+}
+.popup-custom {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+.popup-custom.open {
+  pointer-events: all;
+  z-index: 99;
+  opacity: 1;
+}
+.popup-custom.open > * {
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0);
+}
+.popup-custom > * {
+  -webkit-transition: opacity 0.3s ease-in-out 0.1s,
+    -webkit-transform 0.5s ease-in-out 0.1s;
+  transition: transform 0.5s ease-in-out 0.1s, opacity 0.3s ease-in-out 0.1s,
+    -webkit-transform 0.5s ease-in-out 0.1s,
+    -moz-transform 0.5s ease-in-out 0.1s;
+  -moz-transition: transform 0.5s ease-in-out 0.1s,
+    opacity 0.3s ease-in-out 0.1s, -moz-transform 0.5s ease-in-out 0.1s;
+  -webkit-transform: translate(-1em);
+  -moz-transform: translate(-1em);
+  -ms-transform: translate(-1em);
+  transform: translate(-1em);
+}
+@media (max-width: 1000px) {
+  .popup__presentation {
+    padding: 0;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .popup_presentation__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .popup_presentation__content_wrap {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 1em 1em 2em;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .popup__presentation .popup_presentation__wrap {
+    border: none;
+  }
+  .popup__presentation .popup_presentation__wrap .popup__presentation_img_wrap {
+    height: 30em;
+  }
+  .popup_presentation__content_form {
+    width: 100%;
+  }
+  .popup-custom {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 768px) {
+  .popup-custom {
+    font-size: 2.2em;
+  }
+}
+@media (max-width: 500px) {
+  .popup_presentation__content_form .section__head {
+    max-width: 12.2666666667em;
+    font-size: 2em;
+    margin: 1.35em 0 0.72em;
+    text-align: left;
+  }
+  .popup_presentation__content_form .section__head.popup__small_head {
+    font-size: 1em;
+  }
+  .popup_presentation__content_wrap .section__bottom {
+    font-size: 1em;
+    text-align: left;
+    margin: 0;
+  }
+  .popup__presentation .popup_presentation__wrap {
+    border: none;
+  }
+  .popup__presentation .popup__close {
+    top: 0;
+    right: 0;
+  }
+  .popup__presentation .popup_presentation__wrap .popup__presentation_img_wrap {
+    height: auto;
+  }
+  .popup-custom {
+    font-size: 2.6em;
+  }
+}

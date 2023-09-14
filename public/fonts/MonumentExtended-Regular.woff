@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>404</title>
+    <link rel="stylesheet" href="/public/css/swiper-bundle.min.css?v=1.44">
+    <link rel="stylesheet" href="/public/css/style.min.css?v=1.467">
+    <link rel="apple-touch-icon" sizes="180x180" href="./i/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./i/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./i/favicon-16x16.png">
+    <link rel="manifest" href="./i/site.webmanifest">
+    <link rel="mask-icon" href="./i/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./i/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./i/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<div class="body-wrap inner_page">
+    <div class="header header--static">
+        <div class="container">
+            <div class="header__wrap"><a class="header__logo header__logo--mobile" href="/"><img src="/public/img/logo_min.svg" alt="">404</a><a class="header__logo" href="/"><img src="/public/img/logo.svg" alt=""></a>
+                <div class="header__menu_button"> <span></span><span></span></div>
+                <div class="header__mobile_menu">
+                    <div class="header__menu"><a class="header__menu_item" href="products"><span>Products</span></a><a class="header__menu_item" href="about"><span>ABOUT</span></a><a class="header__menu_item" href="careers"><span>Careers</span></a><a class="header__menu_item" href="contacts"><span>Contacts</span></a></div>
+                    <div class="header__socials"><a class="header__social_item" href="https://www.linkedin.com/company/winfinity-live/" target="_blank"><span>Linkedin</span></a><a class="header__social_item" href="https://www.instagram.com/winfinity.live/" target="_blank"><span>Instagram</span></a><a class="header__social_item" href="https://www.tiktok.com/@winfinity.live?is_from_webapp=1&amp;sender_device=pc" target="_blank"><span>Tik Tok</span></a>
+                    </div>
+                    <div class="header__mini_links"><a class="header__mini_link" href="privacy-policy"><span>PRIVACY POLICY</span></a><a class="header__mini_link" href="cookie-policy"><span>COCKIE POLICY</span></a><a class="header__mini_link" href="terms-and-conditions"><span>terms and conditions</span></a></div>
+                    <div class="header__sing_in"><a class="header__sing_in_item" href="https://play.winfinity.live/"><span>DEMO</span></a></div>
+                    <div class="header__close"><span></span><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page_404">
+        <div class="container">
+            <div class="page_404__wrap">
+                <div class="page_404__main"> <span>404</span></div>
+                <div class="page_404__descr">Looks like an empty space</div>
+                <div class="page_404__button"><a class="button button--black_hover button--gradient_hover" href="/"><span class="button__wrap"><span class="button__inner_wrap"><b class="button__inner_text">go to home page</b></span><span class="button__arrow">
+                    <svg class="alternative_solution" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+                      <foreignobject class="foreignobject" width="1000" height="1000"><span class="foreignobject"></span></foreignobject>
+                    </svg><span class="button__arrow_svg"><svg viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.36402 2L14 9.63598L6.36403 17.272" stroke-width="3"/>
+<path d="M14 9.63379L0.000713587 9.63379" stroke-width="3"/>
+</svg>
+</span></span></span></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__wrap"><a class="footer__logo" href="/"><img src="/public/img/logo.svg" alt=""></a>
+                <div class="footer__menu"><a class="footer__menu_item" href="products"><span>Products</span></a><a class="footer__menu_item" href="about"><span>ABOUT</span></a><a class="footer__menu_item" href="careers"><span>Careers</span></a><a class="footer__menu_item" href="contacts"><span>Contact</span></a></div>
+                <div class="footer__links"><a class="footer__links_item" href="https://www.linkedin.com/company/winfinity-live/" target="_blank"><span>Linkedin</span></a><a class="footer__links_item" href="https://www.instagram.com/winfinity.live/" target="_blank"><span>Instagram</span></a><a class="footer__links_item" href="https://www.tiktok.com/@winfinity.live?is_from_webapp=1&amp;sender_device=pc" target="_blank"><span>Tik Tok</span></a>
+                </div>
+                <div class="footer__sing_in"><a class="footer__sing_in_item" href="https://play.winfinity.live/"><span>DEMO</span></a></div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__coppy">
+                    <div class="footer__imgs"><a href="https://www.iaui.gov.lv/en/about-us" target="_blank"> <img src="/public/img/footer/img_1.png" alt=""></a><a href="https://www.begambleaware.org/" target="_blank"> <img src="/public/img/footer/img_2.png" alt=""></a><a href="https://www.gamstop.co.uk/" target="_blank"> <img src="/public/img/footer/img_3.png" alt=""></a></div>
+                    <div class="footer__coppy--top">© WINFINITY LIMITED 2021</div>
+                    <div class="footer__coppy--bottom">WINFINITY WEBSITE IS FULLY OWNED AND OPERATED BY WSOFT LTD. WSOFT LTD IS LICENSED AND REGULATED BY LATVIAN LOTTERIES AND GAMBLING SUPERVISORY INSPECTION UNDER LICENSE NUMBER P- 09</div>
+                </div>
+                <div class="footer__bottom_menu"><a class="footer__bottom_menu_item" href="privacy-policy"><span>PRIVACY POLICY</span></a><a class="footer__bottom_menu_item" href="cookie-policy"><span>cookie POLICY</span></a><a class="footer__bottom_menu_item" href="terms-and-conditions"><span>terms and conditions</span></a></div>
+                <div class="footer__design"><span>designed dy bs</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/public/js/tween.js"></script>
+<script src="/public/js/axios.min.js"></script>
+<script src="/public/js/swiper-bundle.min.js"></script>
+<script src="/public/js/lightgallery.js"></script>
+<script src="/public/js/main.min.js?v=31.0.1"></script>
+</body>
+</html>
